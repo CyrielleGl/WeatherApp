@@ -9,18 +9,40 @@ Most of the functions are in TypeScript, but you can change them in JavaScript.
 ## You will need
 
 - [X] [Git](https://www.atlassian.com/fr/git/tutorials/install-git)
-- [X] git clone 
-- npm install
-- ng serve
-- localhost:4200
+- [X] git clone <https://github.com/CyrielleGl/WeatherApp>
+- [X] [Angular-cli](https://cli.angular.io/)
+  - install :
 
-# API
+  ```bash
+  npm install -g @angular/cli
+  ```
 
-You can add your API KEY on weather.service.ts to change "{your api key}"
+- [X] in the root project
+  - install dependencies :
+  
+  ```bash
+  npm install
+  ```
 
-To suscribe on OpenWeather API it's here : https://openweathermap.org/
+- [X] Launch the app
 
-# Open Source
+  ```bash
+  ng serve
+  ```
+
+- [X] go to [localhost](http://localhost:4200)
+
+## API
+
+You can add your API KEY on weather.service.ts :
+
+  ```bash
+  {your api key}
+  ```
+
+To suscribe on OpenWeather API it's here : <https://openweathermap.org/>
+
+## Open Source
 
 You're welcome if you want to improve this app :)
 
