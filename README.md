@@ -32,7 +32,7 @@ Most of the functions are in TypeScript, but you can change them in JavaScript.
 
 - [X] go to [localhost](http://localhost:4200)
 
-## API
+## API KEY
 
 You can add your API KEY on weather.service.ts :
 
