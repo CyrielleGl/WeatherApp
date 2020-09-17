@@ -1,0 +1,113 @@
+.container-src {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-src {
+  background-image: url("../../assets/weathericons.scss");
+  width: auto;
+  height: auto;
+  background-size: cover;
+  background-position: top center;
+}
+
+#meteoPng {
+  margin: 1rem auto 0 auto;
+
+  /* make a square container */
+  width: 50px;
+  height: 50px;
+
+  /* fill the container, preserving aspect ratio, and cropping to fit */
+  background-size: cover;
+
+  /* center the image vertically and horizontally */
+  background-position: top center;
+
+  /* round the edges to a circle with border radius 1/2 container size */
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+#meteoPngMain {
+  margin: 1rem auto 0 auto;
+
+  /* make a square container */
+  width: 70px;
+  height: 70px;
+
+  /* fill the container, preserving aspect ratio, and cropping to fit */
+  background-size: cover;
+
+  /* center the image vertically and horizontally */
+  background-position: top center;
+
+  /* round the edges to a circle with border radius 1/2 container size */
+  border-radius: 50%;
+  border: 1.5px solid white;
+}
+
+.form-control {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
+#citySelect {
+  font-size: 1.2rem;
+  margin-top: 1.4rem;
+  margin-bottom: 1.8rem;
+  background-color: #364e9c;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.currentTemp {
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.containerMinMax {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  margin: auto;
+  font-size: 1.2rem;
+}
+
+.tempMin {
+  width: 50%;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.containerForecastMinMax {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  font-size: 1rem;
+}
+
+.tempMinForecast {
+  padding-right: 0.3rem;
+}
+
+.tempMaxForecast {
+  padding-left: 0.4rem;
+}
+
+hr {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 100%;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
